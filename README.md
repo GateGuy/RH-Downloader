@@ -31,7 +31,7 @@
 ### What does this access/affect on my computer?
 - All downloaded files are stored in either the output folder (which is a folder named "output" in the same directory as the program) or a temp folder (which is stored in this same directory and is optionally deleted after the program is finished). This temp folder contains the downloaded patch (extracted if necessary) and a copy of the original rom from your rom folder. Other than that, all that is accessed on your computer is the original rom that will be patched.
 ### Can I see what it looks like?
-- There's a sample screenshot in the repo. The downloader is entirely text-based, so blue lines are added wherever there is user input.
+- There's a video in the repo that shows the program being used to download and apply a patch. There's also a screenshot showing a separate example.
 ### Does this support batch downloading (can I download multiple patches at a time)?
 - To prevent excessive traffic toward the compatible sites, batch downloading is not supported. You can still run the program once for each patch you want to download.
 ### Are there configurable settings? How do I change them?
