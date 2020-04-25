@@ -26,14 +26,14 @@
 ## FAQ
 ### Is this a rom downloader?
 - No. This program does not download roms, nor does it refer to any means of obtaining roms. It only downloads a patch file and applies it to the appropriate rom on your computer. You are responsible for obtaining a legal copy of any rom you want to patch.
-### While running the program, I got a popup from Windows Defender Firewall.
-- This only happens the first time you run it (and if you move/rename it). It's trying to open Selenium, which is used to access Chrome. Just click "Allow Access" and it'll work.
+### Can I see what it looks like?
+- Here's a video that shows the program being used to download and apply a patch: https://drive.google.com/open?id=1TP6Sdt6M2P7bKIedCnygu0x-ZanF6eyG. There's also a screenshot in the repo that shows a separate example.
 ### What does this access/affect on my computer?
 - All downloaded files are stored in either the output folder (which is a folder named "output" in the same directory as the program) or a temp folder (which is stored in this same directory and is optionally deleted after the program is finished). This temp folder contains the downloaded patch (extracted if necessary) and a copy of the original rom from your rom folder. Other than that, all that is accessed on your computer is the original rom that will be patched.
-### Can I see what it looks like?
-- There's a video in the repo that shows the program being used to download and apply a patch. There's also a screenshot showing a separate example.
 ### Does this support batch downloading (can I download multiple patches at a time)?
 - To prevent excessive traffic toward the compatible sites, batch downloading is not supported. You can still run the program once for each patch you want to download.
+### While running the program, I got a popup from Windows Defender Firewall.
+- This only happens the first time you run it (and if you move/rename it). It's trying to open Selenium, which is used to access Chrome. Just click "Allow Access" and it'll work.
 ### Are there configurable settings? How do I change them?
 - User config can be found in the included downloader_config.py; just open it with a text editor. You will need to set your rom folder (example: "D:/Roms") in this config. If you want to restore the config to default settings, just delete it and restart the program.
 
