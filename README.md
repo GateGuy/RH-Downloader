@@ -41,4 +41,4 @@
 - Does not support large disc-based systems. It uses an online auto-patcher to apply patches, and discs are too big for it to handle (at least from what little testing I've done with disc-based games).
 - Does not support hacks that require you to apply multiple patches to one rom (very few hacks do this).
 
-I hope this makes the process of getting rom hacks a lot easier!
+I hope this makes the process of getting rom hacks a lot faster!
