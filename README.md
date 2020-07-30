@@ -1,6 +1,8 @@
 # RH Downloader
-## What is this?
-- This is a Windows program that automatically downloads a patch from RomHacking.net or SMW Central and applies it to a copy of the correct rom on your computer with just a few key presses.
+
+This is a Windows program that automatically downloads a patch from RomHacking.net or SMW Central and applies it to a copy of the correct rom on your computer with just a few key presses.
+
+<img src="https://github.com/GateGuy/RH-Downloader/blob/master/screenshot.png?raw=true" width="480" height="715" />
 
 ## How does it work?
 - Run the executable ("RH Downloader.exe") and follow the onscreen instructions to input the site of choice and patch ID, and it will download the patch, look in the user's rom folder for the correct rom, make a copy, unzip the rom (if necessary), verify the rom's hash codes using RHDN's online hasher (this can be disabled to speed up the process), apply the patch using an online patcher, and finally download the new rom (and optionally compress it in a ZIP archive). For example, if you wanted to download the Zelda 1 hack "Zelda Challenge: Outlands" (which has an ID of 10, found in the hack's URL), you would run the program and specify "RomHacking.net" (option #1) and an ID of 10.
@@ -27,7 +29,7 @@
 ### Is this a rom downloader?
 - No. This program does not download roms, nor does it refer to any means of obtaining roms. It only downloads a patch file and applies it to the appropriate rom on your computer. You are responsible for obtaining a legal copy of any rom you want to patch.
 ### Can I see what it looks like?
-- Here's a video that shows the program being used to download and apply a patch: https://drive.google.com/open?id=1TP6Sdt6M2P7bKIedCnygu0x-ZanF6eyG. There's also a screenshot in the repo that shows a separate example.
+- Here's a video that shows the program being used to download and apply a patch: https://drive.google.com/open?id=1TP6Sdt6M2P7bKIedCnygu0x-ZanF6eyG. There's also a screenshot at the top of this readme.
 ### What does this access/affect on my computer?
 - All downloaded files are stored in either the output folder (which is a folder named "output" in the same directory as the program) or a temp folder (which is stored in this same directory and is optionally deleted after the program is finished). This temp folder contains the downloaded patch (extracted if necessary) and a copy of the original rom from your rom folder. Other than that, all that is accessed on your computer is the original rom that will be patched.
 ### Does this support batch downloading (can I download multiple patches at a time)?
