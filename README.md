@@ -1,5 +1,7 @@
 # RH Downloader
 
+**OUTDATED** - Use [Batch Rom Patcher](https://github.com/GateGuy/BatchRomPatcher) instead, which includes all of RH Downloader's functionality and more.
+
 This is a Windows program that automatically downloads a patch from RomHacking.net or SMW Central and applies it to a copy of the correct rom on your computer with just a few key presses.
 
 <img src="https://github.com/GateGuy/RH-Downloader/blob/master/screenshot.png?raw=true" width="480" height="715" />
